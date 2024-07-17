@@ -1,15 +1,12 @@
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 CIS 1200 Game Project README
-PennKey: ihuangg
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
 ===================
 =: Core Concepts :=
 ===================
 
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
+-Four Core Concepts
 
   1. Collections (LinkedList)
   I decided to use a LinkedList to model the Snake and the background components as I thought it would be easiest
@@ -48,21 +45,11 @@ PennKey: ihuangg
   Encapsulation is kept when getting the snake (a linkedList) or the fruitList (linkedList) by returning a copy of
   the object.
 
-===============================
-=: File Structure Screenshot :=
-===============================
-- Include a screenshot of your project's file structure. This should include
-  all of the files in your project, and the folders they are in. You can
-  upload this screenshot in your homework submission to gradescope, named 
-  "file_structure.png".
-
-
 =========================
-=: Your Implementation :=
+=: Implementation :=
 =========================
 
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
+- Overview of Purpose of each Class
 
   Apple: snake will eat the apple and its body will grow longer by 1 segments
 
@@ -86,31 +73,14 @@ PennKey: ihuangg
 
 
 
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-  I wanted to make this game multiplayer. After implementing the basic function of a single player snake game, I tried
-  to make it multiplayer by using functions to reduce the amount of repetitive code and made the methods modular,
-  so they would modify only one specific snake. However, when making it multiplayer, the game stopped working properly,
-  and I often encountered that the game froze/didn't work properly. To finish the project on time and to ensure that
-  I was able to implement all four concepts, I decided to keep the game single player as the multiplayer also didn't
-  respond well to the inheritance of the Fruit class and would've made the load and save game much more complicated. In
-  the future, I plan on restoring an earlier version of the multiplayer game that followed the basic rules of snake.
-
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-  I think the functionality I implemented is separated well, as each function serves its own purpose and does not
-  repeat each other. The private state is encapsulated well as I made sure to return copies of Collections in my
-  getter functions. I would clean up my code to make sure that it is running as efficiently as possible and make it
-  a little bit more readable/comprehensible.
-
+- Future Iterations
+ Multiplayer!!!
 
 ========================
 =: External Resources :=
 ========================
 
-- Cite any external resources (images, tutorials, etc.) that you may have used 
-  while implementing your game.
+- Cite any external resources (images, tutorials, etc.)
 
   Apple Image: https://miro.medium.com/v2/resize:fit:1129/0*A-rPR3YwWkXonkWl.jpg
   Grape Image: https://static.vecteezy.com/system/resources/previews/005/210/265/
